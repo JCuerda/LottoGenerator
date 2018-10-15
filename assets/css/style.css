@@ -1,0 +1,42 @@
+body{
+    font-family: "Montserrat" !important;
+    font-size: 16px;
+}
+
+div#selection{
+    text-align: center;
+    padding: 20px;
+}
+
+div#selection > form#lotto-form > select#lotto-draw{
+    width: 200px;
+    padding: 8px;
+    border-radius: 10px;
+    font-family: inherit;
+    font-size: inherit;
+}
+div#selection > form#lotto-form > select#lotto-draw:option{
+    text-align: center;
+}
+
+div#number-holder{ 
+    height: 300px;
+    text-align: center; 
+    background-image: url("../image/bg.png");
+}
+div#number-holder > div.img{
+    display: inline;
+}
+div#number-holder > div.img img{
+    width: 200px;
+    height: 200px;
+    margin-top: 3%;
+}
+
+button#generate{
+    padding: 10px;
+    border-radius: 10px;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: bold;
+}
